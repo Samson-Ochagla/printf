@@ -5,22 +5,6 @@
 #include <unistd.h>
 #include <stdio.h>
 
-//header file for each projects on printf
-
-int _printf(const char *format, ...);
-
-int _position(const char *s, int n);
-
-int _strlen(char *s);
-
-char *_strcat(char *dest, char *src, int n);
-
-int _abs(int n);
-
-int _numlen(int n);
-
-void *rev_string(char *s);
-
 /**
  * struct flag_s - A new type defining a flags struct
  * when a flag specifier is passed to _printf()
